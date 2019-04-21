@@ -1,0 +1,7 @@
+{
+"name": "Battle Ship",
+"description": "A web app that allows people to play battle ship",
+"repository": "https://github.com/uacs337spring2019/final-project-battle-ship",
+"logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+"keywords": ["node", "express", "static", "body-parser"]
+}
