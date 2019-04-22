@@ -1,2 +1,2 @@
-release: node js/battleshipservice.js
-web: html/index.html
+release: node battleshipservice.js
+web: index.html
