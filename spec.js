@@ -30,7 +30,7 @@
      */
     function getboards(){
         //fetch board
-        fetch("http://localhost:3000?mode=boards")
+        fetch("http://battleship-337.herokuapp.com?mode=boards")
         .then(checkStatus)
         //returned data
         .then(function(responseText){
