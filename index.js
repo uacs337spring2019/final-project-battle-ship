@@ -34,7 +34,7 @@
         let one = document.getElementById("one");
         let two = document.getElementById("two");
         //fetch until valid
-        fetch("https://localhost:3000?mode=cstat")
+        fetch("https://battleship-337.herokuapp.com?mode=cstat")
         .then(checkStatus)
         //returned data
         .then(function(responseText){
