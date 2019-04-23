@@ -10,9 +10,7 @@
 (function(){
     /* global require */
     const express = require("express");
-    const app = express()
-        .set('view engine', 'html')
-        .get('/', (req, res) => res.render('index'))
+    const app = express();
     const bodyParser = require('body-parser');
     const jsonParser = bodyParser.json();
 
