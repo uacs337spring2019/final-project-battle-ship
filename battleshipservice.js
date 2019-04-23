@@ -50,7 +50,6 @@
         next();
     });
 
-    alert("trying to load app");
     //allows user to interact with the service
     app.get('/', function (req, res) {
         res.header("Access-Control-Allow-Origin", "*");
