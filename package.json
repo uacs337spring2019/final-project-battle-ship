@@ -2,7 +2,7 @@
   "name": "js",
   "version": "1.0.0",
   "description": "These are the current ideas for the Battleship project:",
-  "main": "battleshipservice.js",
+  "main": "index.html",
   "scripts": {
     "start": "node battleshipservice.js",
     "test": "echo \"Error: no test specified\" && exit 1"
