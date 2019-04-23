@@ -1,2 +1,2 @@
 web: node battleshipservice.js
-release: -c open ./index.html
+release: bash -c open ./index.html
