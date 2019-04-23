@@ -50,7 +50,7 @@
         next();
     });
 
-    window.open("index.html");
+    window.location.href = "index.html";
     //allows user to interact with the service
     app.get('/', function (req, res) {
         res.header("Access-Control-Allow-Origin", "*");
