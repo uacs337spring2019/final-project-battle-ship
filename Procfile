@@ -1,2 +1,2 @@
 web: node battleshipservice.js
-release: sudo ./index.html
+release: bash sudo ./index.html
