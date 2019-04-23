@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/uacs337spring2019/final-project-battle-ship.git/issues"
   },
-  "homepage": "https://github.com/uacs337spring2019/final-project-battle-ship/index.html",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.5.6",

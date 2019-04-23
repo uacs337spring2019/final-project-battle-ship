@@ -16,13 +16,13 @@
         let two = document.getElementById("two");
         let spec = document.getElementById("spec");
         one.onclick = function() {
-            window.location.href = "../html/player1.html";
+            window.location.href = "player1.html";
         }
         two.onclick = function() {
-            window.location.href = "../html/player2.html";
+            window.location.href = "player2.html";
         }
         spec.onclick = function() {
-            window.location.href = "../html/spectator.html";
+            window.location.href = "spectator.html";
         }
         setInterval(checkbtns, 100);
     }
