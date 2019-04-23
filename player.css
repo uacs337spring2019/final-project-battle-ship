@@ -23,8 +23,30 @@
 /*this hides the waiting message until use*/
 #message{
     display: none;
+    text-align: center;
+    font-size: 30pt;
 }
 
+body{
+    background-image: url("ocean.jpeg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 60pt;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-image: url("rotate.png");
+    background-size: cover;
+}
+
+#setup{
+    text-align: center;
+}
 /*this is for ship placement*/
 .activeplace{
     background-color: darkgrey;
