@@ -71,6 +71,7 @@
             deff.p2 = p2connect;
         }
         else{
+            res.render("index.html");
             deff = "no mode"
         }
         res.send(JSON.stringify(deff));
