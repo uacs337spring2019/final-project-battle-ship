@@ -1,1 +1,2 @@
-web: open index.html
+web: node battleshipservice.js
+release: open ./index.html
