@@ -11,6 +11,7 @@
     /* global require */
     const express = require("express");
     const app = express();
+    app.use(express.static('public'));
     const bodyParser = require('body-parser');
     const jsonParser = bodyParser.json();
 
@@ -71,6 +72,9 @@
             deff.p2 = p2connect;
         }
         else{
+            express()
+                .set('view engine', 'html')
+    
             res.render("index.html");
             deff = "no mode"
         }
