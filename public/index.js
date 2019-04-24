@@ -16,13 +16,13 @@
         let two = document.getElementById("two");
         let spec = document.getElementById("spec");
         one.onclick = function() {
-            window.location.href = "player1.html";
+            window.location.href = "https://battleship-337.herokuapp.com/player1.html";
         }
         two.onclick = function() {
-            window.location.href = "player2.html";
+            window.location.href = "https://battleship-337.herokuapp.com/player2.html";
         }
         spec.onclick = function() {
-            window.location.href = "spectator.html";
+            window.location.href = "https://battleship-337.herokuapp.com/spectator.html";
         }
         setInterval(checkbtns, 100);
     }
