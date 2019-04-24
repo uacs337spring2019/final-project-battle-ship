@@ -65,7 +65,7 @@
      */
     function getboards(){
         //fetch board
-        fetch("http://battleship-337.herokuapp.com?mode=boards")
+        fetch("https://battleship-337.herokuapp.com?mode=boards")
         .then(checkStatus)
         //returned data
         .then(function(responseText){
@@ -86,7 +86,7 @@
             console.error(error);
         });
         //fetch turn
-        fetch("http://battleship-337.herokuapp.com?mode=turn")
+        fetch("https://battleship-337.herokuapp.com?mode=turn")
         .then(checkStatus)
         //returned data
         .then(function(responseText){
@@ -607,7 +607,7 @@
      */
     function getvalid(){
         //fetch until valid
-        fetch("http://battleship-337.herokuapp.com?mode=status")
+        fetch("https://battleship-337.herokuapp.com?mode=status")
         .then(checkStatus)
         //returned data
         .then(function(responseText){
@@ -645,7 +645,7 @@
      */
     function checkvalid(){
         //fetch until valid
-        fetch("http://battleship-337.herokuapp.com?mode=status")
+        fetch("https://battleship-337.herokuapp.com?mode=status")
         .then(checkStatus)
         //returned data
         .then(function(responseText){
@@ -695,7 +695,7 @@
         body : JSON.stringify(message)};
         
         //calls fetch
-        fetch("http://battleship-337.herokuapp.com", fetchOptions)
+        fetch("https://battleship-337.herokuapp.com", fetchOptions)
             .then(checkStatus)
             .catch(function(error){
                 console.error(error);
